@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pexels_api_client (0.1.0)
+    pexels_api_client (0.1.1)
       activesupport
       api-auth (~> 2.3.1)
       flexirest (~> 1.8.6)
