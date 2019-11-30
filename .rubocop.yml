@@ -1,0 +1,29 @@
+AllCops:
+  TargetRubyVersion: 2.6.3
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 190
+
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+
+Metrics/MethodLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'spec/support/fake_pexels.rb'
+    - 'pexels_api_client.gemspec'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'spec/support/fake_pexels.rb'
+    - 'pexels_api_client.gemspec'
+
+Metrics/ClassLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'spec/support/fake_pexels.rb'
+    - 'pexels_api_client.gemspec'
