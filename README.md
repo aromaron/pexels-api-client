@@ -50,7 +50,7 @@ photo.photographer # => John Doe
 
 ```ruby
 curated_photos = PexelsApiClient::Photo.curated # => Fallback to default options
-  -- or  --
+  -- or --
 curated_photos = PexelsApiClient::Photo.curated(per_page: 5, page: 2) # => With custom options
 
 curated_photos.photos # => [photo1, photo2,etc]
@@ -79,8 +79,8 @@ random_photo.photos.first.photographer # => John Doe
 ```ruby
 search_photos = PexelsApiClient::Photo.search(per_page: 5, page: 2, query: 'people')
 
-curated_photos.photos  # => [photo1, photo2,etc]
-curated_photos.photos.first.photographer # => John Doe
+search_photos.photos  # => [photo1, photo2,etc]
+search_photos.photos.first.photographer # => John Doe
  # ...
 ```
 
@@ -108,7 +108,7 @@ video.user.name # => John Doe
 
 ```ruby
 popular_videos = PexelsApiClient::Video.popular # => Fallback to default options
-  -- or  --
+  -- or --
 popular_videos = PexelsApiClient::Video.popular(per_page: 5, page: 2) # => With custom options
 
 popular_videos.videos # => [video1, video2, etc]
