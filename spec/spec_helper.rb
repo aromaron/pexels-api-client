@@ -3,6 +3,11 @@
 require 'pexels_api_client'
 require 'vcr'
 require 'webmock/rspec'
+require 'simplecov'
+require 'codecov'
+
+SimpleCov.start
+SimpleCov.formatter = SimpleCov::Formatter::Codecov
 
 Dir['./spec/support/**/*.rb'].each { |f| require f }
 
