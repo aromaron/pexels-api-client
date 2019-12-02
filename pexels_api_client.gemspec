@@ -30,18 +30,14 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.required_ruby_version = '~> 2.6.3'
 
-  spec.add_runtime_dependency 'activesupport'
-  spec.add_runtime_dependency 'api-auth',           '~> 2.3.1'
   spec.add_runtime_dependency 'flexirest',          '~> 1.8.6'
   spec.add_runtime_dependency 'json',               '~> 2.2.0'
   spec.add_runtime_dependency 'rest-client',        '~> 2.1.0'
 
   spec.add_development_dependency 'bump',           '~> 0.8.0'
   spec.add_development_dependency 'bundler',        '~> 2.0'
-  spec.add_development_dependency 'rake',           '~> 10.0'
   spec.add_development_dependency 'rspec',          '~> 3.9.0'
   spec.add_development_dependency 'rubocop',        '~> 0.77.0'
-  spec.add_development_dependency 'sinatra',        '~> 2.0.7'
   spec.add_development_dependency 'vcr',            '~> 5.0.0'
   spec.add_development_dependency 'webmock',        '~> 3.7.6'
 end
