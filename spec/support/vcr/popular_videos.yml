@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pexels.com/videos/popular?max_duration=&max_width=&min_duration=&min_width=&page=1&per_page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Flexirest/1.8.6
+      Authorization:
+      - 563492ad6f91700001000001f58038e707fe4cb5b9b095c995096d2e
+      Accept:
+      - application/hal+json, application/json;q=0.5
+      Content-Type:
+      - application/json; charset=utf-8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Dec 2019 17:52:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=ddb9f969004f1694300391ad39edc40461575309137; expires=Wed, 01-Jan-20
+        17:52:17 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"1d3c1a5cbf36d709b18c6edaeea712de"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Powered-By:
+      - cloud66
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19942'
+      X-Ratelimit-Reset:
+      - '1577819869'
+      X-Request-Id:
+      - 192aee65-9b56-4df9-944e-b6456efea20b
+      X-Runtime:
+      - '0.049263'
+      X-Tyk-Cached-Response:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 53ef275f28aab29c-MEX
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":1,"per_page":2,"total_results":10758,"url":"https://www.pexels.com/videos/","videos":[{"id":2185857,"width":1920,"height":1080,"url":"https://www.pexels.com/video/women-walking-on-the-shore-with-different-two-piece-swimsuits-2185857/","image":"https://images.pexels.com/videos/2185857/free-video-2185857.jpg?fit=crop&w=1200&h=630&auto=compress&cs=tinysrgb","full_res":null,"tags":[],"duration":87,"user":{"id":68,"name":"Tim
+        Savage","url":"https://www.pexels.com/@timsavage"},"video_files":[{"id":93342,"quality":"sd","file_type":"video/mp4","width":640,"height":360,"link":"https://player.vimeo.com/external/331114247.sd.mp4?s=774a9cd251c1df88f5f031864a7b66dcdd393837&profile_id=164&oauth2_token_id=57447761"},{"id":93343,"quality":"sd","file_type":"video/mp4","width":426,"height":240,"link":"https://player.vimeo.com/external/331114247.sd.mp4?s=774a9cd251c1df88f5f031864a7b66dcdd393837&profile_id=139&oauth2_token_id=57447761"},{"id":93344,"quality":"hd","file_type":"video/mp4","width":1920,"height":1080,"link":"https://player.vimeo.com/external/331114247.hd.mp4?s=e4248cf46b6f5d8b3c92edb64ec1c14164936b89&profile_id=175&oauth2_token_id=57447761"},{"id":93345,"quality":"hd","file_type":"video/mp4","width":1280,"height":720,"link":"https://player.vimeo.com/external/331114247.hd.mp4?s=e4248cf46b6f5d8b3c92edb64ec1c14164936b89&profile_id=174&oauth2_token_id=57447761"},{"id":93346,"quality":"sd","file_type":"video/mp4","width":960,"height":540,"link":"https://player.vimeo.com/external/331114247.sd.mp4?s=774a9cd251c1df88f5f031864a7b66dcdd393837&profile_id=165&oauth2_token_id=57447761"},{"id":93347,"quality":"hls","file_type":"video/mp4","width":null,"height":null,"link":"https://player.vimeo.com/external/331114247.m3u8?s=6c6b96d3195c6a1830249684df11d3001d9605d6&oauth2_token_id=57447761"}],"video_pictures":[{"id":234753,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-0.jpg","nr":0},{"id":234754,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-1.jpg","nr":1},{"id":234755,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-2.jpg","nr":2},{"id":234756,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-3.jpg","nr":3},{"id":234757,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-4.jpg","nr":4},{"id":234758,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-5.jpg","nr":5},{"id":234759,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-6.jpg","nr":6},{"id":234760,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-7.jpg","nr":7},{"id":234761,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-8.jpg","nr":8},{"id":234762,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-9.jpg","nr":9},{"id":234763,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-10.jpg","nr":10},{"id":234764,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-11.jpg","nr":11},{"id":234765,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-12.jpg","nr":12},{"id":234766,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-13.jpg","nr":13},{"id":234767,"picture":"https://static-videos.pexels.com/videos/2185857/pictures/preview-14.jpg","nr":14}]},{"id":3121459,"width":3840,"height":2160,"url":"https://www.pexels.com/video/traffic-on-an-intersection-road-in-a-city-3121459/","image":"https://images.pexels.com/videos/3121459/free-video-3121459.jpg?fit=crop&w=1200&h=630&auto=compress&cs=tinysrgb","full_res":null,"tags":[],"duration":37,"user":{"id":1522664,"name":"Taryn
+        Elliott","url":"https://www.pexels.com/@taryn-elliott-1522664"},"video_files":[{"id":234365,"quality":"hd","file_type":"video/mp4","width":2560,"height":1440,"link":"https://player.vimeo.com/external/368320203.hd.mp4?s=ed62dd31538d7ef092250598fdb13c3cd0857812&profile_id=170&oauth2_token_id=57447761"},{"id":234366,"quality":"hd","file_type":"video/mp4","width":1280,"height":720,"link":"https://player.vimeo.com/external/368320203.hd.mp4?s=ed62dd31538d7ef092250598fdb13c3cd0857812&profile_id=174&oauth2_token_id=57447761"},{"id":234367,"quality":"sd","file_type":"video/mp4","width":640,"height":360,"link":"https://player.vimeo.com/external/368320203.sd.mp4?s=38b1bac5d627b94fb902597643461ee5f233d00a&profile_id=164&oauth2_token_id=57447761"},{"id":234368,"quality":"hd","file_type":"video/mp4","width":3840,"height":2160,"link":"https://player.vimeo.com/external/368320203.hd.mp4?s=ed62dd31538d7ef092250598fdb13c3cd0857812&profile_id=172&oauth2_token_id=57447761"},{"id":234369,"quality":"hd","file_type":"video/mp4","width":1920,"height":1080,"link":"https://player.vimeo.com/external/368320203.hd.mp4?s=ed62dd31538d7ef092250598fdb13c3cd0857812&profile_id=175&oauth2_token_id=57447761"},{"id":234370,"quality":"sd","file_type":"video/mp4","width":960,"height":540,"link":"https://player.vimeo.com/external/368320203.sd.mp4?s=38b1bac5d627b94fb902597643461ee5f233d00a&profile_id=165&oauth2_token_id=57447761"},{"id":234371,"quality":"sd","file_type":"video/mp4","width":426,"height":240,"link":"https://player.vimeo.com/external/368320203.sd.mp4?s=38b1bac5d627b94fb902597643461ee5f233d00a&profile_id=139&oauth2_token_id=57447761"},{"id":234372,"quality":"hls","file_type":"video/mp4","width":null,"height":null,"link":"https://player.vimeo.com/external/368320203.m3u8?s=565434acf7125fde252cc572a41ad51f76c0e684&oauth2_token_id=57447761"}],"video_pictures":[{"id":529692,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-0.jpg","nr":0},{"id":529693,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-1.jpg","nr":1},{"id":529694,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-2.jpg","nr":2},{"id":529695,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-3.jpg","nr":3},{"id":529696,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-4.jpg","nr":4},{"id":529697,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-5.jpg","nr":5},{"id":529698,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-6.jpg","nr":6},{"id":529699,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-7.jpg","nr":7},{"id":529700,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-8.jpg","nr":8},{"id":529701,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-9.jpg","nr":9},{"id":529702,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-10.jpg","nr":10},{"id":529703,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-11.jpg","nr":11},{"id":529704,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-12.jpg","nr":12},{"id":529705,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-13.jpg","nr":13},{"id":529706,"picture":"https://static-videos.pexels.com/videos/3121459/pictures/preview-14.jpg","nr":14}]}]}'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2019 17:52:17 GMT
+recorded_with: VCR 5.0.0

@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/photos/3171200
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Flexirest/1.8.6
+      Authorization:
+      - 563492ad6f91700001000001f58038e707fe4cb5b9b095c995096d2e
+      Accept:
+      - application/hal+json, application/json;q=0.5
+      Content-Type:
+      - application/json; charset=utf-8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Dec 2019 17:52:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d922b16ee59747f641d50736629be01c41575309136; expires=Wed, 01-Jan-20
+        17:52:16 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"5fdbc73182b246d13ad74dc1459c0530"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19947'
+      X-Ratelimit-Reset:
+      - '1577819869'
+      X-Request-Id:
+      - c2e8bb3f-2419-44c4-9205-fb2e9a87ac18
+      X-Runtime:
+      - '0.089355'
+      X-Tyk-Cached-Response:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 53ef2759acdcb2f6-MEX
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":3171200,"width":4036,"height":2696,"url":"https://www.pexels.com/photo/family-having-meal-at-the-table-3171200/","photographer":"cottonbro","photographer_url":"https://www.pexels.com/@cottonbro","photographer_id":1437723,"src":{"original":"https://images.pexels.com/photos/3171200/pexels-photo-3171200.jpeg","large2x":"https://images.pexels.com/photos/3171200/pexels-photo-3171200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/3171200/pexels-photo-3171200.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/3171200/pexels-photo-3171200.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/3171200/pexels-photo-3171200.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/3171200/pexels-photo-3171200.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","landscape":"https://images.pexels.com/photos/3171200/pexels-photo-3171200.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/3171200/pexels-photo-3171200.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"},"liked":false}'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2019 17:52:16 GMT
+recorded_with: VCR 5.0.0

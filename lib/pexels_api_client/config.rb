@@ -3,35 +3,35 @@
 module PexelsApiClient
   module Config
     class << self
-      attr_reader :app_id, :api_key, :base_url
+      attr_reader :api_key, :base_url
 
       def reset
-        @app_id = nil
         @api_key = nil
         @base_url = PexelsApiClient::BASE_URL
       end
 
-      def app_id=(app_id)
-        @app_id = app_id
-        set_api_auth_credentials
-      end
-
       def api_key=(api_key)
         @api_key = api_key
-        set_api_auth_credentials
+        set_api_auth
       end
 
       def base_url=(base_url)
         @base_url = base_url
-        set_api_auth_credentials
+        set_api_auth
       end
 
       private
 
-      def set_api_auth_credentials
+      def set_api_auth
         Flexirest::Base.base_url = base_url
-        Flexirest::Base.api_auth_credentials(app_id, api_key)
         Flexirest::Base.request_body_type = :json
+
+        Flexirest::Base.faraday_config do |faraday|
+          faraday.adapter(:net_http)
+          faraday.options.timeout       = 10
+          faraday.headers['User-Agent'] = "Flexirest/#{Flexirest::VERSION}"
+          faraday.headers['Authorization'] = @api_key
+        end
       end
     end
 

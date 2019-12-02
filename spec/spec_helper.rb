@@ -1,19 +1,22 @@
 # frozen_string_literal: true
 
 require 'pexels_api_client'
+require 'vcr'
 require 'webmock/rspec'
 
 Dir['./spec/support/**/*.rb'].each { |f| require f }
 
-RSpec.configure do |config|
-  config.before(:suite) do
-    PexelsApiClient.config do |conf|
-      conf.api_key = 'API_KEY'
-      conf.base_url = 'https://api.pexels.com/v1'
-    end
-  end
+PexelsApiClient.config do |config|
+  config.api_key = 'qwerty123'
+end
 
-  config.before(:each) do
-    stub_request(:any, /api.pexels.com/).to_rack(FakePexels)
-  end
+RSpec.configure do |config|
+end
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/support/vcr'
+  config.hook_into :webmock
+  config.ignore_localhost = true
+  config.configure_rspec_metadata!
+  config.default_cassette_options = { record: :once }
 end
