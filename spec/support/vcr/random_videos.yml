@@ -10,7 +10,7 @@ http_interactions:
       User-Agent:
       - Flexirest/1.8.6
       Authorization:
-      - 563492ad6f91700001000001f58038e707fe4cb5b9b095c995096d2e
+      - qwerty123
       Accept:
       - application/hal+json, application/json;q=0.5
       Content-Type:
