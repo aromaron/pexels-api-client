@@ -10,7 +10,7 @@ module PexelsApiClient
   autoload :Video,  'pexels_api_client/video'
   autoload :Config, 'pexels_api_client/config'
 
-  BASE_URL = 'https://api.pexels.com/v1'
+  BASE_URL = 'https://api.pexels.com/'
 
   def self.config
     if block_given?

@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pexels.com/videos/videos/1616168
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Flexirest/1.8.6
+      Authorization:
+      - 563492ad6f91700001000001f58038e707fe4cb5b9b095c995096d2e
+      Accept:
+      - application/hal+json, application/json;q=0.5
+      Content-Type:
+      - application/json; charset=utf-8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Dec 2019 17:52:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d4c9703239ff148a03c8ea088cca98cfa1575309137; expires=Wed, 01-Jan-20
+        17:52:17 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"b3a4b0ccd114349bd112b660de4d101a"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Powered-By:
+      - cloud66
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19943'
+      X-Ratelimit-Reset:
+      - '1577819869'
+      X-Request-Id:
+      - f5e82a03-582f-434a-a6af-f6ec896c5138
+      X-Runtime:
+      - '0.022723'
+      X-Tyk-Cached-Response:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 53ef275e2a8db28a-MEX
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1616168,"width":1920,"height":1080,"url":"https://www.pexels.com/video/person-spending-time-on-her-smartphone-1616168/","image":"https://images.pexels.com/videos/1616168/free-video-1616168.jpg?fit=crop&w=1200&h=630&auto=compress&cs=tinysrgb","full_res":null,"tags":[],"duration":7,"user":{"id":293608,"name":"Oleg
+        Magni","url":"https://www.pexels.com/@oleg-magni"},"video_files":[{"id":65087,"quality":"hd","file_type":"video/mp4","width":1280,"height":720,"link":"https://player.vimeo.com/external/301650714.hd.mp4?s=b2b4a674382b2f523d1d567aead0f5ae349ec3bf&profile_id=174&oauth2_token_id=57447761"},{"id":65088,"quality":"hd","file_type":"video/mp4","width":1920,"height":1080,"link":"https://player.vimeo.com/external/301650714.hd.mp4?s=b2b4a674382b2f523d1d567aead0f5ae349ec3bf&profile_id=175&oauth2_token_id=57447761"},{"id":65089,"quality":"sd","file_type":"video/mp4","width":960,"height":540,"link":"https://player.vimeo.com/external/301650714.sd.mp4?s=ef2d17d8731cd494e04bfe3a24b90de097c77933&profile_id=165&oauth2_token_id=57447761"},{"id":65090,"quality":"sd","file_type":"video/mp4","width":640,"height":360,"link":"https://player.vimeo.com/external/301650714.sd.mp4?s=ef2d17d8731cd494e04bfe3a24b90de097c77933&profile_id=164&oauth2_token_id=57447761"},{"id":65091,"quality":"hls","file_type":"video/mp4","width":null,"height":null,"link":"https://player.vimeo.com/external/301650714.m3u8?s=dea15d1df9ff95e8c01456404c6a079f233b20d5&oauth2_token_id=57447761"}],"video_pictures":[{"id":152962,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-0.jpg","nr":0},{"id":152963,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-1.jpg","nr":1},{"id":152964,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-2.jpg","nr":2},{"id":152965,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-3.jpg","nr":3},{"id":152966,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-4.jpg","nr":4},{"id":152967,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-5.jpg","nr":5},{"id":152968,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-6.jpg","nr":6},{"id":152969,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-7.jpg","nr":7},{"id":152970,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-8.jpg","nr":8},{"id":152971,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-9.jpg","nr":9},{"id":152972,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-10.jpg","nr":10},{"id":152973,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-11.jpg","nr":11},{"id":152974,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-12.jpg","nr":12},{"id":152975,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-13.jpg","nr":13},{"id":152976,"picture":"https://static-videos.pexels.com/videos/1616168/pictures/preview-14.jpg","nr":14}]}'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2019 17:52:17 GMT
+recorded_with: VCR 5.0.0

@@ -43,5 +43,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec',          '~> 3.9.0'
   spec.add_development_dependency 'rubocop',        '~> 0.77.0'
   spec.add_development_dependency 'sinatra',        '~> 2.0.7'
+  spec.add_development_dependency 'vcr',            '~> 5.0.0'
   spec.add_development_dependency 'webmock',        '~> 3.7.6'
 end
